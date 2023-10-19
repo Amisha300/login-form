@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', sans-serif;
+}
+/* grouping selector */
+label,input,a{
+       display: block;
+       margin-bottom: 10px;
+}
+#main{
+    display: flex;
+    /* without display flex justify content will not work */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: aqua;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: crimson;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    font-size: 15px;
+}
+#can{
+    background-color: black;
+}
+
+/* this for font awsome logo */
+.fa-solid{
+    color: blueviolet;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+#icon{
+    position: relative;
+}
+#pass{
+    position: relative;
+}
